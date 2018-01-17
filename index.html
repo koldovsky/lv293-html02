@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Sample</title>
+</head>
+
+<body>
+  
+  <form method="POST" action="https://formspree.io/YOUR_EMAIL_HERE">
+    <label>Client Name:
+      <input type="text" name="client-name"
+      required>
+    </label>
+    <br>
+    <label>Client Email:
+      <input type="email" name="client-email"
+      required>
+    </label>
+    <br>
+    <label>Client's Passport:
+      <input type="text" name="client-passport"
+      required pattern="[A-Z]{2}[\d]{6}"
+      placeholder="AB123456"
+      title="AB123456">
+    </label>
+    <br>
+    <label for="password">Password:</label>
+    <input id="password"
+      type="password" name="client-password"
+      placeholder="Password"
+      required>
+      
+    <input type="submit" value="SEND">  
+    <input type="reset">
+  </form>
+  
+  <table border="1">
+    <tr>
+      <th>Sales</th><th>Quarter 1</th><th>Quarter 2</th>
+    </tr>
+    <tr>
+      <th>Product 1</th><td>5</td><td>6</td>
+    </tr>
+    <tr>
+      <th>Product 2</th><td>8</td><td>9</td>
+    </tr>
+    <tr>
+      <th>Total</th><td colspan="2">20</td>
+    </tr>
+  </table>
+  
+  <ol reversed start="5" type="I">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ol>
+  
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+  </ul>
+  
+  
+
+  
+</body>
+
+</html>
